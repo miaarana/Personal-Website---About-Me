@@ -1,0 +1,70 @@
+<!-- my first html program, it will contain everything about me and the things I have done-- > 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About Me | Resume & Projects </title>
+        <style>
+            body {
+                background-color: rgb(206, 230, 246);
+            }
+        </style>
+    </head>
+    <body>
+        <h1> <u>୨⎯ Personal Web Page ⎯୧</u></h1>
+
+        <!--the mini clickable tabs to the page-->
+        <a href="#about-me">About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#education">Education</a>
+        <a href="#personal-projects">Personal Projects</a>
+        <a href="#contact">Contact</a>
+
+        <!--the start of about me-->
+    
+        <div class="section">
+        <h2 class= "about-mia" id="about-me"><i><u>About Me:</i></u></h2>
+        <p>My name is Mia Arana. I'm 19 years old, third year in University. I'm currently wokring on getting my bacholars degree in Computer Science: Game Development.
+        <br>Getting into this major changed everything for me. I decided to change my major at the last minute 2 months before graduating high school. I took the community college pathway and it opened my eyes new possiblies. </p>
+        
+        <!--include my pfp from github from now as pic of myself; remember to include photo inside the folder-->
+        <img src="pfp.jpg" alt="image of a animed girl, Yashorio, wearing a hat" width="190">
+        <h4> My Profile Picture </h4>
+
+        <p> I always wanted to create video games since I was in middle school. I love the idea of bringing my imagination to life and sharing it with others. I want to be able to show others the joy of playing video games and how they can be a form of art and expression. </p>
+        <p> I want to have the chance to work on exciting projects and give other people the opportunity to experience the magic of video games and make amazing memories with their friends.</p>
+        </div>
+
+        <!--start of resume-->
+        <div class="section-2">
+            <h2 class="web-resume" id="resume"><i><u>Resume</u></i></h2>
+            <p>It's finally time to show off my skills and experiences that I have: <br></p>
+        </div>
+
+        <!--start of education-->
+        <div class="section-4">
+            <h3 class="education" id="education"><b><i><u>Education</u></i></b></h3>
+            <p>I'm currently pursuing a Bachelor's degree in Computer Science: Game Development. My education has provided me with a strong foundation in programming languages, game design principles, and software development.</p>
+        </div>
+
+        <div class="section-3">
+            <h2 class="projects" id="personal-projects"><i><u>Personal Projects</u></i></h2>
+            <p>I've working on personal projects since my first year as a college student. I first created a turtle making a heart in Python</p>
+            <ol type = a>
+                <li> Turtle Heart - Python</li>
+                <li> Employee Program - C++/Java </li>
+                <li> Simple Website - HTML/CSS </li>
+            </ol>
+
+            <p> These projects are a reflection of my growth and development as a programmer. Each project will continue to challenge me and help me improve my skills as a programmer. </p>
+        </div>
+
+        <div class="section-5">
+            <h2 class="contact" id="contact"><i><u>Contact</u></i></h2>
+            <p>Feel free to reach out to me through email or connect with me on LinkedIn. I'm always open to networking and discussing potential opportunities.</p>
+            <ul>
+                <li>Email: mimilezama33@gmail.com </li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/mia-arana-461a7637b/">My Profile: Mia Arana</a> </li>
+                <li>GitHub: <a href="https://github.com/miaarana">My Profile: Mia Arana</a> </li>
+            </ul>
+    </body>
+</html>
